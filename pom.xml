@@ -536,6 +536,8 @@
 
   <!-- ==================================================================== -->
   <properties>
+<timestamp>${maven.build.timestamp}</timestamp>
+   <maven.build.timestamp.format>yyyy-MM-dd HH:mm</maven.build.timestamp.format>
     <!-- Plugin version numbers -->
     <maven-assembly-plugin.version>2.5.3</maven-assembly-plugin.version>
     <maven-changes-plugin.version>2.11</maven-changes-plugin.version>
